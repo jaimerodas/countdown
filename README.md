@@ -1,4 +1,4 @@
-countdown
+Cuanto falta para irnos a Brasil?
 =========
 
-Contador para el mundial
+Quería aprender a usar digitalocean y culminó en [cuantofaltaparairnos.com](cuantofaltaparairnos.com)
