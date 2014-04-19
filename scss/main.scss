@@ -1,0 +1,71 @@
+@import "//cloud.typography.com/671958/687044/css/fonts.css";
+
+@mixin font-narrow {
+	font-family: 'Tungsten A', 'Tungsten B';
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin font-wide {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 700; 
+	font-style: normal;
+}
+
+body {
+	@include font-narrow;
+	color: #484848;
+	background: #eee;
+}
+
+article {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+
+	margin: 0 0 20px;
+}
+
+.tiempo {
+	float: left;
+	width: 150px;
+	margin: 0 0 20px;
+}
+.unidad {
+	@include font-narrow;
+
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 4px;
+	line-height: 1;
+}
+.valor {
+	@include font-wide;
+
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+	article {
+		height: 160px;
+		width: 600px;
+		
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		margin: -80px 0 0 -300px;
+	}
+}
