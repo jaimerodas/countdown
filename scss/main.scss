@@ -16,11 +16,19 @@ body {
 	@include font-narrow;
 	color: #FAE210;
 	background: #61B142;
+
+	min-height: 340px;
 }
 
 article {
 	width: 300px;
-	margin: 0 auto;
+	height: 340px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -170px 0 0 -150px;
+
 	text-align: center;
 }
 
@@ -58,13 +66,12 @@ h1 {
 }
 
 @media screen and (min-width: 480px) {
+	body {
+		min-height: 160px;
+	}
 	article {
 		width: 480px;
-
-		position: absolute;
-		top: 50%;
-		left: 50%;
-
+		height: 160px;
 		margin: -80px 0 0 -240px;
 	}
 	.tiempo {
@@ -74,7 +81,6 @@ h1 {
 
 @media screen and (min-width: 600px) {
 	article {
-		height: 160px;
 		width: 600px;
 		margin-left: -300px;
 	}
