@@ -30,7 +30,7 @@ $(function(){
 			$('#m .valor').html(ts.minutes);
 			$('#s .valor').html(ts.seconds);
 		}, 
-		new Date("2014-06-09T23:05:00.000-06:00"), 
+		new Date("2014-06-09T23:05:00.000-05:00"), 
 		unidades
 	);
 });
