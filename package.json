@@ -1,0 +1,24 @@
+{
+  "name": "countdown",
+  "version": "0.2.0",
+  "author": {
+    "name": "Jaime Rodas",
+    "email": "jaime@rodas.mx",
+    "url": "https://github.com/jaimerodas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaimerodas/countdown"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://jaimerodas.github.io/countdown/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "~0.2.0"
+  }
+}

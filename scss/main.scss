@@ -1,4 +1,4 @@
-@import "//cloud.typography.com/671958/687044/css/fonts.css";
+@import "//cloud.typography.com/671958/803146/css/fonts.css";
 
 @mixin font-narrow {
 	font-family: 'Tungsten A', 'Tungsten B';
@@ -7,14 +7,14 @@
 }
 
 @mixin font-wide {
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
-	font-weight: 700;
+	font-family: 'Numbers Claimcheck A', 'Numbers Claimcheck B';
+	font-weight: 400;
 	font-style: normal;
 }
 body {
 	@include font-narrow;
-	color: #FAE210;
-	background: #61B142;
+	color: #E8FDFF;
+	background: #3F7CAC;
 
 	min-height: 340px;
 }
@@ -42,12 +42,8 @@ h1 {
 
 .tiempo {
 	float: left;
-	width: 150px;
+	width: 50%;
 	margin: 0 0 20px;
-
-	&.uno {
-		width: 300px;
-	}
 }
 .unidad {
 	@include font-narrow;
@@ -63,7 +59,6 @@ h1 {
 	@include font-wide;
 
 	font-size: 64px;
-	font-weight: 700;
 	text-align: center;
 	line-height: 1;
 }
@@ -77,10 +72,6 @@ h1 {
 		margin-left: -255px;
 	}
 	.tiempo {
-		width: 170px;
-
-		&.uno {
-			width: 170px;
-		}
+		width: 25%;
 	}
 }

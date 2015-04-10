@@ -18,10 +18,11 @@ q="milliseconds seconds minutes hours days weeks months years decades centuries 
 
 	countdown(
 		function(ts){
+			document.getElementById('d').innerHTML = ts.days;
 			document.getElementById('h').innerHTML = ts.hours;
 			document.getElementById('m').innerHTML = ts.minutes;
 			document.getElementById('s').innerHTML = ts.seconds;
 		},
-		new Date("2014-06-09T23:35:00.000-05:00"),
-		countdown.HOURS | countdown.MINUTES | countdown.SECONDS
+		new Date("2015-05-24T09:10:00.000-05:00"),
+		countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
 	);
